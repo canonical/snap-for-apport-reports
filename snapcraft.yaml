@@ -1,0 +1,12 @@
+# https://ubuntu.com/tutorials/create-your-first-snap#3-building-a-snap-is-easy
+name: apport-target
+version: "1"
+summary: Just a target for Apport
+contact: https://github.com/nteodosio/apport-target
+description: Test target for Apport
+base: core20
+
+parts:
+  gnu-hello:
+    source: http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz
+    plugin: autotools
