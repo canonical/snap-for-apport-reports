@@ -1,0 +1,5 @@
+This snap is for testing https://github.com/canonical/apport/pull/26.
+
+Install it and run
+
+    ubuntu-bug apport-target
