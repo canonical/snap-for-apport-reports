@@ -2,11 +2,12 @@
 name: apport-target
 version: "1"
 summary: Just a target for Apport
-contact: https://github.com/nteodosio/apport-target
+contact: https://github.com/canonical/snap-for-apport-reports
 description: Test target for Apport
 base: core20
 
 parts:
   gnu-hello:
+    build-packages: [libsecret-1-dev]
     source: http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz
     plugin: autotools
