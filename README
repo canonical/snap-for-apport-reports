@@ -1,5 +1,5 @@
 This snap is for testing https://github.com/canonical/apport/pull/26.
 
-Install it and run
+Install it (`snap install --dangerous ./*.snap`) or build it and run
 
     ubuntu-bug apport-target
